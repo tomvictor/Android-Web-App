@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         myWebview =(WebView)findViewById(R.id.bosh);
         WebSettings webSettings = myWebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebview.loadUrl("http://boschdna.makervillage.in/signup/");
+        myWebview.loadUrl("http://trackiddemo.trackbox.co.in/");
         myWebview.setWebViewClient(new WebViewClient());
     }
 
